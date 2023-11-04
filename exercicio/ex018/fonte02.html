@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Pizza';
+            src: url(fontes/New\ Pizza.otf) format('opentype'); 
+            src: url(fontes/New\ Pizza.ttf) format('truetype');
+            /*
+             Tipos de format()
+               - opentype (otf)
+               - truetype (ttf)
+               - embedded-opentype
+               - truetype-aat (apple advanced typography)
+               - cvg
+            */
+        }
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 16px;
+            color: black;
+        }
+
+        h1{
+            font-family: 'Pizza';
+            font-size: 3em;
+        }
+
+        h2{
+            font-family: 'Pizza';
+            font-size: 2em;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <h2>Subtitulo</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque a reprehenderit autem laudantium! Doloribus vero, amet mollitia soluta vitae inventore modi? Atque dolores tempora consequatur! Explicabo dolore unde id a.</p>
+    <h2>Subtitulo 2 </h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ipsam totam nesciunt dignissimos dicta excepturi dolor perspiciatis odio ad? Officia enim rerum eum exercitationem repudiandae quia aliquam magni nihil necessitatibus!</p>
+</body>
+</html>
