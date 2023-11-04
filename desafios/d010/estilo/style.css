@@ -90,12 +90,12 @@ div.video{
     position: relative;
 }
 
-div.video > inframe{
+div.video  inframe{
     position: absolute;
-    top: 5%;
+    top: 2.5%;
     left: 5%;
     width: 90%;
-    height: 90%;
+    height: 95%;
 }
 
 article > h1, article > h2{
